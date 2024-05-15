@@ -1,6 +1,8 @@
+using DesafioProjetoHospedagem.Interfaces;
+
 namespace DesafioProjetoHospedagem.Models
 {
-    public class Reserva
+    public class Reserva : IReserva
     {
         public List<Pessoa> Hospedes { get; set; }
         public Suite Suite { get; set; }
